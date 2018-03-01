@@ -1,0 +1,29 @@
+.wrapper{
+    width:100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.flex-container{
+  display:flex;
+  justify-content:space-evenly;
+  padding:1rem;
+}
+
+.flex-container a{
+  color: rgb(255, 208, 91);
+  text-decoration: none;
+  padding: 2rem;
+}
+.site-footer p {
+  text-align: center;
+    margin:auto;
+    padding-bottom: 0rem;
+    padding-top:rem;
+    font-size: 10px;
+     background-color: #40596B;
+  color:white;
+
+}
