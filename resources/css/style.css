@@ -33,6 +33,21 @@
   height: auto;
 }
 
+.testi-body{
+  font-family: bebas neue;
+}
+.people{
+  font-family: montserrat;
+} 
+@font-face {
+  font-family: bebas neue;
+  src: url(resource/Style/fonts/BebasNeue.woff);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(resource/Style/fonts/montserrat.woff);
+}
+
 /*
 * {
   margin:0;
