@@ -92,13 +92,19 @@ h4{
 #contact-form {
    background-color: #217591;
    padding: 10px 200px 30px 200px;
+    
    max-width:100%;
-   float: left;
+   /*float: left;
    left: 50%;
-   position: absolute;
-   margin-top:30px;
-   margin-left: -360px;
-   border-radius:7px;   
+   
+    position: absolute;
+   
+    margin-top:30px;
+   
+    margin-left: -360px;*/
+   
+    border-radius:7px;
+   
    font-family: 'Play', sans-serif;
 }
 #contact-form input,   
