@@ -41,11 +41,11 @@
 } 
 @font-face {
   font-family: bebas neue;
-  src: url(resource/Style/fonts/BebasNeue.woff);
+  src: url(/resources/fonts/BebasNeue.woff);
 }
 @font-face {
   font-family: montserrat;
-  src: url(resource/Style/fonts/montserrat.woff);
+  src: url(/resources/fonts/montserrat.woff);
 }
 
 /*
