@@ -1,166 +1,197 @@
-.wrapper{
-    width:100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-}
-.flex-container{
-  display:flex;
-  justify-content:space-evenly;
-  padding:1rem;
+body {
+     box-sizing: border-box;
+     background-color: rgb(189, 195, 204);
 }
 
-.flex-container a{
-  color: rgb(255, 208, 91);
-  text-decoration: none;
-  padding: 2rem;
+img {
+    max-width: 100%;
+    max-height: 100%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
+
+.robot {
+    height: 100%;
+    width: 100%;
+}
+
+.cyborg {
+    height: 100%;
+    width: 100%;
+}
+
+.galaxy {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+     width: 100%;
+     max-width: 1600px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     font-size: 2rem;
+}
+
+.flex-container {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 1rem;
+}
+
+.flex-container a {
+     color: rgb(255, 208, 91);
+     text-decoration: none;
+     padding: 2rem;
+}
+
 .site-footer p {
-  text-align: center;
-  margin:auto;
-  padding-bottom: 0rem;
-  padding-top:rem;
-  font-size: 10px;
-  background-color: #217591;
-  color:white;
-
+     text-align: center;
+     margin: auto;
+     padding-bottom: 0rem;
+     padding-top: 1rem;
+     font-size: 10px;
+     background-color: #217591;
+     color: white;
 }
 
 .small-icon {
-  width: 30px;
-  height: auto;
+     width: 30px;
+     height: auto;
 }
 
-.testi-body{
-  font-family: bebas neue;
+.testi-body {
+     font-family: bebas neue;
 }
-.people{
-  font-family: montserrat;
-} 
+
+.people {
+     font-family: montserrat;
+}
+
 @font-face {
-  font-family: bebas neue;
-  src: url(/resources/fonts/BebasNeue.woff);
+     font-family: bebas neue;
+     src: url(/resources/fonts/BebasNeue.woff);
 }
-@font-face {
-  font-family: montserrat;
-  src: url(/resources/fonts/montserrat.woff);
+ @font-face {
+     font-family: montserrat;
+     src: url(/resources/fonts/montserrat.woff);
 }
-
-/*
-* {
-  margin:0;
+/* 
+ header {
+     position:absolute;
+     width:100%;
+     height:64px;
+     top:0;
+     background:red;
 }
-header {
-  position:absolute;
-  width:100%;
-  height:64px;
-  top:0;
-  background:red;
+ footer {
+     position:absolute;
+     width:100%;
+     height:64px;
+     bottom:0;
+     background:green;
 }
-footer {
-  position:absolute;
-  width:100%;
-  height:64px;
-  bottom:0;
-  background:green;
+ .content {
+     position:absolute;
+     width:100%;
+     top:64px;
+     bottom:64px;
+     background:blue;
 }
-.content {
-  position:absolute;
-  width:100%;
-  top:64px;
-  bottom:64px;
-  background:blue;
-}
-*/
-
+ */
 /* Contact Form*/
-
-body {
-   box-sizing:border-box;
-   color: #C0C0C0;  
+/* body {
+     box-sizing:border-box;
+     color: #C0C0C0;
 }
-
-h1 {
-   font-family: 'Play', sans-serif;
-   margin: 10px 0 10px 0;
+ h1 {
+     font-family: 'Play', sans-serif;
+     margin: 10px 0 10px 0;
 }
-h4{  
-   margin: 0 0 20px 0;
+ h4{
+     margin: 0 0 20px 0;
 }
-#contact-form {
-   background-color: #217591;
-   padding: 10px 200px 30px 200px;
-    
-   max-width:100%;
-   /*float: left;
-   left: 50%;
-   
-    position: absolute;
-   
-    margin-top:30px;
-   
-    margin-left: -360px;*/
-   
-    border-radius:7px;
-   
-   font-family: 'Play', sans-serif;
+ #contact-form {
+     background-color: #217591;
+     padding: 10px 200px 30px 200px;
+     max-width:100%;
+    /*float: left;
+     left: 50%;
+     position: absolute;
+     margin-top:30px;
+     margin-left: -360px;
+    */
+/*     border-radius:7px;
+     font-family: 'Play', sans-serif;
 }
-#contact-form input,   
-#contact-form select,   
-#contact-form textarea,   
-#contact-form label { 
-   font-size: 15px;  
-   margin-bottom: 2px;
-   font-family: 'Play', sans-serif;
-} 
-#contact-form input,   
-#contact-form select,   
-#contact-form textarea { 
-   width:100%;
-   background: #fff;
-   border: 0; 
-   border-radius: 4px;
-   margin-bottom: 25px;  
-   padding: 5px;  
-}  
-#contact-form input:focus,   
-#contact-form select:focus,   
-#contact-form textarea:focus {  
-   background-color: #E5E6E7; 
-}  
-#contact-form textarea {
-   width:100%;
-   height: 150px;
+ #contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+     font-size: 15px;
+     margin-bottom: 2px;
+     font-family: 'Play', sans-serif;
 }
-#contact-form button {
-   cursor:pointer;
-   width:100%;
-   border:none;
-   background:#991D57;
-   color:#FFF;
-   margin:0 0 5px;
-   padding:10px;
-   border-radius:5px;
-   font-family: 'Play', sans-serif;
+ #contact-form input, #contact-form select, #contact-form textarea {
+     width:100%;
+     background: #fff;
+     border: 0;
+     border-radius: 4px;
+     margin-bottom: 25px;
+     padding: 5px;
 }
-
-
-#contact-form .required {  
-   font-weight:bold;  
-   color: #E5E6E7;      
+ #contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus {
+     background-color: #E5E6E7;
 }
-
-
+ #contact-form textarea {
+     width:100%;
+     height: 150px;
+}
+ #contact-form button {
+     cursor:pointer;
+     width:100%;
+     border:none;
+     background:#991D57;
+     color:#FFF;
+     margin:0 0 5px;
+     padding:10px;
+     border-radius:5px;
+     font-family: 'Play', sans-serif;
+}
+ #contact-form .required {
+     font-weight:bold;
+     color: #E5E6E7;
+}
 /* Media Queries*/
-@media only screen and (max-width: 580px) {
-   #contact-form{
-      left: 3%;
-      margin-right: 3%;
-      width: 88%;
-      margin-left: 0;
-      padding-left: 3%;
-      padding-right: 3%;
-   }
+ @media only screen and (max-width: 580px) {
+     #contact-form{
+         left: 3%;
+         margin-right: 3%;
+         width: 88%;
+         margin-left: 0;
+         padding-left: 3%;
+         padding-right: 3%;
+    }
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    width: 95%;
+    padding: 10px;
+    height: 300px;
+    margin: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
