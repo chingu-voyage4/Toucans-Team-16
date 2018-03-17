@@ -196,3 +196,10 @@ img {
         width: 100%;
     }
 }
+.colorImages:hover{
+    filter: grayscale(0%);
+}
+/*filter for the images*/
+.blackAndWhite {
+    filter: grayscale(100%); 
+}
