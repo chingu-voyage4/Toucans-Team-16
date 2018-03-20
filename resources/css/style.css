@@ -20,9 +20,9 @@ img {
     -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
-.robot {
+.arrival {
     height: 100%;
-    width: 100%;
+    width:  100%
 }
 
 .cyborg {
@@ -30,9 +30,9 @@ img {
     width: 100%;
 }
 
-.galaxy {
-    height: 100%;
-    width: 100%;
+.robot {
+    height: 342px;
+    width:  1225px;
 }
 
 .wrapper {
