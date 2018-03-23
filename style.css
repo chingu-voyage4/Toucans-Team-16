@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     font-size: 2rem;
+    background-color: #217591;
 }
 .flex-container{
   display:flex;
@@ -13,7 +14,7 @@
 }
 
 .flex-container a{
-  color: rgb(255, 208, 91);
+  color: white;;
   text-decoration: none;
   padding: 2rem;
 }
