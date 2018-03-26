@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 
-<body>
+<body onload="makeTheTime()">
     <header id="top">
         <div class="wrapper">
             <nav class="flex-container">
@@ -25,7 +25,8 @@
     
     <div class="container">
         <div class="column">
-            <img class="arrival" src="resources/images/arrival.jpg" alt="arrival of ship">
+            <img id="img" src="resources/images/arrival.jpg">
+            <button type="button" onclick="displayNextImage()">Next</button>
         </div>
     </div>
     <div class="container">
@@ -151,7 +152,7 @@
                 <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
             </div>
         </footer>
-        <script src="resources/js/scripts.js"></script>
+        <script type="text/javascript" src="resources/js/scripts.js"></script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>
