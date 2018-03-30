@@ -11,6 +11,12 @@ body {
      font-family: "montserrat";
 }
 
+.intro {
+    font-family: "bebas neue";
+    font-size: 26px;
+    color: #DCDCDC;
+    letter-spacing: 0.0625em;
+}
 
 img {
     max-width: 100%;
