@@ -1,8 +1,25 @@
+@font-face {
+     font-family: bebas neue;
+     src: url(/Toucans-Team-16/resources/fonts/BebasNeue.woff);
+}
+
+@font-face {
+     font-family: montserrat;
+     src: url(/Toucans-Team-16/resources/fonts/montserrat.woff);
+}
+
 body {
      box-sizing: border-box;
      background: url(/Toucans-Team-16/resources/images/milky-way.jpg);
 }
-
+/*
+.intro {
+    font-family: "bebas neue";
+    font-size: 26px;
+    color: black;
+    letter-spacing: 0.0625em;
+}
+*/
 .testi-body {
      font-family: "bebas neue";
 }
@@ -10,7 +27,6 @@ body {
 .people {
      font-family: "montserrat";
 }
-
 
 img {
     max-width: 100%;
@@ -73,14 +89,7 @@ img {
 }
 
 
-@font-face {
-     font-family: bebas neue;
-     src: url(/Toucans-Team-16/resources/fonts/BebasNeue.woff);
-}
- @font-face {
-     font-family: montserrat;
-     src: url(/Toucans-Team-16/resources/fonts/montserrat.woff);
-}
+
 /* 
  header {
      position:absolute;
