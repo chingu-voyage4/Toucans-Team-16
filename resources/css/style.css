@@ -12,20 +12,20 @@ body {
      box-sizing: border-box;
      background: url(/Toucans-Team-16/resources/images/milky-way.jpg);
 }
-/*
-.intro {
-    font-family: "bebas neue";
-    font-size: 26px;
-    color: black;
-    letter-spacing: 0.0625em;
-}
-*/
+
 .testi-body {
      font-family: "bebas neue";
 }
 
 .people {
      font-family: "montserrat";
+}
+
+
+.intro {
+    font-family: "bebas neue";
+    font-size: 26px;
+    color: #DCDCDC;
 }
 
 img {
