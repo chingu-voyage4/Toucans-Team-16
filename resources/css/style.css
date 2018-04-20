@@ -90,14 +90,16 @@ img {
 
 
 
-/* 
+ 
  header {
      position:absolute;
      width:100%;
-     height:64px;
+     height:70px;
      top:0;
-     background:red;
+     background:grey;
+     opacity: 0.75;
 }
+/*
  footer {
      position:absolute;
      width:100%;
@@ -125,7 +127,8 @@ img {
  h4{
      margin: 0 0 20px 0;
 }
- #contact-form {
+*/
+#contact-form {
      background-color: #217591;
      padding: 10px 200px 30px 200px;
      max-width:100%;
@@ -135,7 +138,7 @@ img {
      margin-top:30px;
      margin-left: -360px;
     */
-/*     border-radius:7px;
+     border-radius:7px;
      font-family: 'Play', sans-serif;
 }
  #contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
@@ -173,6 +176,7 @@ img {
      font-weight:bold;
      color: #E5E6E7;
 }
+
 /* Media Queries*/
  @media only screen and (max-width: 580px) {
      #contact-form{
