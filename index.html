@@ -103,43 +103,44 @@
         </div>
         <!-- Contact Form -->
         <a name="involve"></a>
-        <div id="contact-form">
-            <div>
-                <h1>Join Us</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="well" id="center-well">
+                    <div id="contact-form">
+                    <h1>Join Us</h1>
+                        <form method="post" action="http://serverlessforms.com/api/form/c0efdd97-17bc-57ff-afcd-5413938a8592/form-response">
+                    <div>
+                        <label for="name">
+                            <span class="required">Name: </span>
+                            <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">
+                            <span class="required">Email: </span>
+                            <input type="email" id="email" name="email" value="" placeholder="Your Email" required="required"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="subject">
+                            <span class="subject">Subject: </span>
+                            <input type="text" id="subject" name="subject" value="" placeholder="Subject"  required="required"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="message">
+                            <span class="required">Message: </span>
+                            <textarea id="message" name="message" placeholder="Please write your message here." required="required"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <button name="submit" type="submit" id="submit">SEND</button>
+                    </div>
+                </form>
+                </div>
             </div>
-
-            <form method="post" action="http://serverlessforms.com/api/form/c0efdd97-17bc-57ff-afcd-5413938a8592/form-response">
-                <div>
-                    <label for="name">
-                        <span class="required">Name: </span>
-                        <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required"/>
-                    </label>
-                </div>
-                <div>
-                    <label for="email">
-                        <span class="required">Email: </span>
-                        <input type="email" id="email" name="email" value="" placeholder="Your Email" required="required"/>
-                    </label>
-                </div>
-                <div>
-                    <label for="subject">
-                        <span class="subject">Subject: </span>
-                        <input type="text" id="subject" name="subject" value="" placeholder="Subject"  required="required"/>
-                    </label>
-                </div>
-                <div>
-                    <label for="message">
-                        <span class="required">Message: </span>
-                        <textarea id="message" name="message" placeholder="Please write your message here." required="required"></textarea>
-                    </label>
-                </div>
-                <div>
-                    <button name="submit" type="submit" id="submit">SEND</button>
-                </div>
-            </form>
-
         </div>
-        </div>
+    </div>
 
         <div data-scroll id="button-top" href="#top">
             <img class="small-icon" src="resources/images/top.svg">
